@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body {
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 * {
     margin: 0;
     padding: 10;
+}
+
+body {
+    background-image: url(./img/fundo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -29,7 +31,7 @@ h1 span {
     top: 200px;
     width: 400px;
     height: 400px;
-    background-color: rgba(0, 0, 0, 0.356);
+    background-color: rgba(0, 0, 0, 0.404);
     padding: 40px;
     border-radius: 10px;
     margin: 0 auto;
@@ -40,10 +42,12 @@ h1 span {
 .container label {
     margin: 15px 0px 5px 0px;
     font-weight: bold;
+    color: rgb(52, 174, 179);
 }
 
 .container input {
     padding: 10px;
+    margin-top: 5px;
     border-radius: 5px;
     border: none;
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Calculadora Tf, K, C</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="notificacao">
+        <i id="fechar" class='bx bx-x ' onclick="close()"></i>
+        <span>Não foi possível calcular este número, digite outro, por favor.</span>
+    </div>
+
+    <h1>Calculadora de Graus <span>Celsius</span> para <span>Fahrenheit</span>.</h1>
+    <div class="container">
+        <label for="celsius">Escreva aqui se for celsius</label>
+        <input type="number" name="celsius" id="celsius" placeholder="Graus Celsius">
+        <label for="fahrenheit">Escreva aqui se for fahrenheit:</label>
+        <input type="number" name="fahrenheit" id="fahrenheit" placeholder="Fahrenheit">
+
+        <input type="submit" id="cal" value="Calcular">
+
+        <span style="margin-top: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;font-size: large;">O calculo aparecerá logo abaixo!</span>
+        <div id="resc"></div>
+        <br>
+        <div id="resf"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
